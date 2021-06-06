@@ -105,6 +105,8 @@ cc_library_static {
     defaults: [
         "vold_default_flags",
         "vold_default_libs",
+        "vold_hw_fde_defaults",
+        "vold_hw_fde_perf_defaults",
     ],
 
     srcs: [
@@ -178,6 +180,7 @@ cc_binary {
     defaults: [
         "vold_default_flags",
         "vold_default_libs",
+        "vold_hw_fde_defaults",
     ],
 
     srcs: ["main.cpp"],
